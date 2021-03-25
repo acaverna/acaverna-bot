@@ -46,6 +46,10 @@ function atualizaStreamers() {
 
         if (response.data.stream) {
           if (!streamersOn.includes(nomeStreamer)) {
+            client.say(
+              nomeStreamer,
+              `/me Olá @${nomeStreamer} a Caverna deseja uma live Denomenal para você VirtualHug VirtualHug`
+            );
             streamersOn.push(nomeStreamer);
           }
         } else {
