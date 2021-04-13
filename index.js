@@ -10,7 +10,7 @@ const opts = {
     username: BotName,
     password: process.env.TOKEN,
   },
-  channels: [ChannelName],
+  channels: [ChannelName, "pokemaobr"],
 };
 const client = new tmi.client(opts);
 const streamers = JSON.parse(
@@ -22,14 +22,12 @@ const streamersDaCaverna = JSON.parse(
     flag: "r",
   })
 );
-const nomeStreamers = [];
+const modsDaCaverna = JSON.parse(
+  fs.readFileSync("./data/mods.json", { encoding: "utf8", flag: "r" })
+);
 const streamersOn = [];
 const tempoDivulgacao = 600000;
 const tempoAtualizacao = 500000;
-
-streamersDaCaverna.forEach((streamer) => {
-  nomeStreamers.push(streamer.name);
-});
 
 function recivedMessage(target, context, msg, bot) {
   if (bot) {
@@ -37,13 +35,9 @@ function recivedMessage(target, context, msg, bot) {
   }
 
   let { username } = context;
-  let isMod = context.mod;
   let command = msg.split(" ");
 
-  if (
-    (isMod || streamersDaCaverna.includes(username)) &&
-    command[0] === "!blocklist"
-  ) {
+  if (modsDaCaverna.mods.includes(username) && command[0] === "!blocklist") {
     let banido = command[1].replace("@", "");
     let motivo = msg.replace(`!blocklist ${command[1]}`, "");
 
@@ -69,12 +63,10 @@ function atualizaStreamers() {
               nomeStreamer,
               `/me Olá @${nomeStreamer} a Caverna deseja uma live Denomenal para você VirtualHug VirtualHug`
             );
-            streamersOn.push(nomeStreamer);
             opts.channels.push(nomeStreamer);
           }
         } else {
           if (streamersOn.includes(nomeStreamer)) {
-            streamersOn.splice(streamersOn.indexOf(nomeStreamer), 1);
             opts.channels.splice(opts.channels.indexOf(nomeStreamer), 1);
           }
         }
@@ -101,9 +93,10 @@ function divulgaStreamer() {
 }
 
 function baneViewer(username, motivo) {
-  streamersDaCaverna.forEach((streamer) => {
+  streamers.forEach((streamer) => {
     client.say(streamer.name, `/ban ${username} ${motivo}`);
   });
+  client.say("pokemaobr", `/ban ${username} ${motivo}`);
 }
 
 setInterval(() => {
