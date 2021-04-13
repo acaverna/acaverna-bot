@@ -22,13 +22,32 @@ const streamersDaCaverna = JSON.parse(
     flag: "r",
   })
 );
+const nomeStreamers = [];
 const streamersOn = [];
 const tempoDivulgacao = 600000;
 const tempoAtualizacao = 500000;
 
+streamersDaCaverna.forEach((streamer) => {
+  nomeStreamers.push(streamer.name);
+});
+
 function recivedMessage(target, context, msg, bot) {
   if (bot) {
     return;
+  }
+
+  let { username } = context;
+  let isMod = context.mod;
+  let command = msg.split(" ");
+
+  if (
+    (isMod || streamersDaCaverna.includes(username)) &&
+    command[0] === "!blacklist"
+  ) {
+    let banido = command[1].replace("@", "");
+    let motivo = msg.replace(`!blacklist ${command[1]}`, "");
+
+    baneViewer(banido, motivo);
   }
 }
 
@@ -51,10 +70,12 @@ function atualizaStreamers() {
               `/me Olá @${nomeStreamer} a Caverna deseja uma live Denomenal para você VirtualHug VirtualHug`
             );
             streamersOn.push(nomeStreamer);
+            opts.channels.push(nomeStreamer);
           }
         } else {
           if (streamersOn.includes(nomeStreamer)) {
             streamersOn.splice(streamersOn.indexOf(nomeStreamer), 1);
+            opts.channels.splice(opts.channels.indexOf(nomeStreamer), 1);
           }
         }
       })
@@ -76,6 +97,12 @@ function divulgaStreamer() {
       );
       client.say(streamer, `!sh-so ${streamerSorteado.name}`);
     }
+  });
+}
+
+function baneViewer(username, motivo) {
+  streamersDaCaverna.forEach((streamer) => {
+    client.say(streamer.name, `/ban ${username} ${motivo}`);
   });
 }
 
