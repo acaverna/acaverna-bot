@@ -42,10 +42,10 @@ function recivedMessage(target, context, msg, bot) {
 
   if (
     (isMod || streamersDaCaverna.includes(username)) &&
-    command[0] === "!blacklist"
+    command[0] === "!blocklist"
   ) {
     let banido = command[1].replace("@", "");
-    let motivo = msg.replace(`!blacklist ${command[1]}`, "");
+    let motivo = msg.replace(`!blocklist ${command[1]}`, "");
 
     baneViewer(banido, motivo);
   }
