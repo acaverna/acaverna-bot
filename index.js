@@ -63,11 +63,11 @@ function atualizaStreamers() {
               nomeStreamer,
               `/me Olá @${nomeStreamer} a Caverna deseja uma live Denomenal para você VirtualHug VirtualHug`
             );
-            opts.channels.push(nomeStreamer);
+            streamersOn.push(nomeStreamer);
           }
         } else {
           if (streamersOn.includes(nomeStreamer)) {
-            opts.channels.splice(opts.channels.indexOf(nomeStreamer), 1);
+            streamersOn.splice(streamersOn.indexOf(nomeStreamer), 1);
           }
         }
       })
