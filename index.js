@@ -61,7 +61,7 @@ function atualizaStreamers() {
           if (!streamersOn.includes(nomeStreamer)) {
             client.say(
               nomeStreamer,
-              `/me Olá @${nomeStreamer} a Caverna deseja uma live Denomenal para você VirtualHug VirtualHug`
+              `Olá @${nomeStreamer} a Caverna deseja uma live Denomenal para você VirtualHug VirtualHug`
             );
             opts.channels.push(nomeStreamer);
           }
