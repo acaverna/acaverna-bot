@@ -61,7 +61,7 @@ function atualizaStreamers() {
           if (!streamersOn.includes(nomeStreamer)) {
             client.say(
               nomeStreamer,
-              `/me Olá @${nomeStreamer} a Caverna deseja uma live Denomenal para você VirtualHug VirtualHug`
+              `Olá @${nomeStreamer} a Caverna deseja uma live Denomenal para você VirtualHug VirtualHug`
             );
             streamersOn.push(nomeStreamer);
           }
@@ -85,7 +85,7 @@ function divulgaStreamer() {
     if (streamer !== streamerSorteado.name) {
       client.say(
         streamer,
-        `/me ${streamerSorteado.description}. Conheça o canal https://twitch.tv/${streamerSorteado.name}`
+        `${streamerSorteado.description}. Conheça o canal https://twitch.tv/${streamerSorteado.name}`
       );
       client.say(streamer, `!sh-so ${streamerSorteado.name}`);
     }

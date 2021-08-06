@@ -1,97 +1,96 @@
-[
-  {
-    "name": "bug_elseif",
-    "id": "150740615",
-    "description": "As vezes tem código na batalha dos python, as vezes tem jogos pra distrair a cabeça. Uma pessoa incrível que merece o seu follow :)"
-  },
-  {
-    "name": "clauzinhando",
-    "id": "547554703",
-    "description": "Visite o canal da clauzinhando e faça desde desenhos, amigurumis e até receitas de pipoca. Segue lá"
-  },
-  {
-    "name": "davibusanello",
-    "id": "426312273",
-    "description": "Lives estudando RUST. A gente sabe que RUST não serve pra nada. Mas se ele vai rodar em windows. Então está xow! Segue que é sucesso!"
-  },
-  {
-    "name": "edersondeveloper",
-    "id": "544584282",
-    "description": "Live copiando coisas. Desde lives passando raiva com C++ até desejando morte ao eixo X. E muito mais. Segue ele lá."
-  },
-  {
-    "name": "profbrunolopes",
-    "id": "551257512",
-    "description": "TI no mais alto nível, muito conteúdo sensacional e também aquela jogatina raiz."
-  },
-  {
-    "name": "nariodev",
-    "id": "156408762",
-    "description": "Fazendo bots de açai!"
-  },
-  {
-    "name": "kastr0walker",
-    "id": "452092305",
-    "description": "React sempre com desafios e cria umas coisas doidas com JS. É muito gente boa! Vai lá que é xow!"
-  },
-  {
-    "name": "jpbrab0",
-    "id": "442652234",
-    "description": "Mais senior que muita gente que se diz senior. Com pouca idade tem muito a ensinar pra você."
-  },
-  {
-    "name": "pachicodes",
-    "id": "448550670",
-    "description": "A brasileira mais gringa da twitch, um carisma sensacional, ajuda muito a comunidade de streamers, aprender a ser DevRel."
-  },
-  {
-    "name": "tonhocodes",
-    "id": "173280271",
-    "description": "Aleatoriedades da vida dev, desenvolvimento de softwares, apps, games, empreendedorismo etc. Vai ter PHP Show! Cola lá!"
-  },
-  {
-    "name": "xtecna",
-    "id": "101021470",
-    "description": "Lives xow com aquele sotaque carioca. Aprenda com a gente a fazer projetos web pro seu joguinho de carta do LOR. Cola lá que é xow!"
-  },
-  {
-    "name": "pixlrose",
-    "id": "78532927",
-    "description": "Web da alegria com muitos desafios de HTML, CSS e Wordpress. Live divertida demais. Só segue!"
-  },
-  {
-    "name": "moniquelive",
-    "id": "4930146",
-    "description": "Codadora com muita experiência nas costas, desenvolvendo uns Golang, Haskell, Deploy no Heroku, ou qualquer coisa."
-  },
-  {
-    "name": "adielseffrin",
-    "id": "89302205",
-    "description": "Lives onde o foco é opcional, mas quando foca tem códigos pra bot, desenvolvimento web, vida de professor é muito divertimento. Cola que é xow!!"
-  },
-  {
-    "name": "vitthin",
-    "id": "49340947",
-    "description": "Um dos mestres dos chatbots de live coding. Além de ser o maior piuzeiro da galacta. Esse é xow demais!"
-  },
-  {
-    "name": "morgannadev",
-    "id": "502974112",
-    "description": "Ensinando todas as técnicas milenares para a galera começar com o pé direito como dev. A rainha do kotlin. Segue que é só alegria."
-  },
-  {
-    "name": "pokemaobr",
-    "id": "37536441",
-    "description": "Bingo, PHP de rua, esporro e muito entretenideno."
-  },
-  {
-    "name": "levxyca",
-    "id": "164662617",
-    "description": "Calma, calma, eita, eita. Muitas idas ao banheiro, muita risada, conversas divertidíssimas e um pouco de código."
-  },
-  {
-    "name": "alorenato",
-    "id": "72662985",
-    "description": "Não diga alô, diga ALÔ RENATO! JS alegria fazendo integrações com o jogo Legends of Runeterra. Cola na live dele que é xow!"
-  }
+[{
+        "name": "bug_elseif",
+        "id": "150740615",
+        "description": "As vezes tem código na batalha dos python, as vezes tem jogos pra distrair a cabeça. Uma pessoa incrível que merece o seu follow :)"
+    },
+    {
+        "name": "davibusanello",
+        "id": "426312273",
+        "description": "Lives estudando RUST. A gente sabe que RUST não serve pra nada. Mas se ele vai rodar em windows. Então está xow! Segue que é sucesso!"
+    },
+    {
+        "name": "edersondeveloper",
+        "id": "544584282",
+        "description": "Live copiando coisas. Desde lives passando raiva com C++ até desejando morte ao eixo X. E muito mais. Segue ele lá."
+    },
+    {
+        "name": "profbrunolopes",
+        "id": "551257512",
+        "description": "TI no mais alto nível, muito conteúdo sensacional e também aquela jogatina raiz."
+    },
+    {
+        "name": "nariodev",
+        "id": "156408762",
+        "description": "Fazendo bots de açai!"
+    },
+    {
+        "name": "kastr0walker",
+        "id": "452092305",
+        "description": "React sempre com desafios e cria umas coisas doidas com JS. É muito gente boa! Vai lá que é xow!"
+    },
+    {
+        "name": "jpbrab0",
+        "id": "442652234",
+        "description": "Mais senior que muita gente que se diz senior. Com pouca idade tem muito a ensinar pra você."
+    },
+    {
+        "name": "pachicodes",
+        "id": "448550670",
+        "description": "A brasileira mais gringa da twitch, um carisma sensacional, ajuda muito a comunidade de streamers, aprender a ser DevRel."
+    },
+    {
+        "name": "tonhocodes",
+        "id": "173280271",
+        "description": "Aleatoriedades da vida dev, desenvolvimento de softwares, apps, games, empreendedorismo etc. Vai ter PHP Show! Cola lá!"
+    },
+    {
+        "name": "xtecna",
+        "id": "101021470",
+        "description": "Lives xow com aquele sotaque carioca. Aprenda com a gente a fazer projetos web pro seu joguinho de carta do LOR. Cola lá que é xow!"
+    },
+    {
+        "name": "pixlrose",
+        "id": "78532927",
+        "description": "Web da alegria com muitos desafios de HTML, CSS e Wordpress. Live divertida demais. Só segue!"
+    },
+    {
+        "name": "moniquelive",
+        "id": "4930146",
+        "description": "Codadora com muita experiência nas costas, desenvolvendo uns Golang, Haskell, Deploy no Heroku, ou qualquer coisa."
+    },
+    {
+        "name": "adielseffrin",
+        "id": "89302205",
+        "description": "Lives onde o foco é opcional, mas quando foca tem códigos pra bot, desenvolvimento web, vida de professor é muito divertimento. Cola que é xow!!"
+    },
+    {
+        "name": "vitthin",
+        "id": "49340947",
+        "description": "Um dos mestres dos chatbots de live coding. Além de ser o maior piuzeiro da galacta. Esse é xow demais!"
+    },
+    {
+        "name": "morgannadev",
+        "id": "502974112",
+        "description": "Ensinando todas as técnicas milenares para a galera começar com o pé direito como dev. A rainha do kotlin. Segue que é só alegria."
+    },
+    {
+        "name": "pokemaobr",
+        "id": "37536441",
+        "description": "Bingo, PHP de rua, esporro e muito entretenideno."
+    },
+    {
+        "name": "levxyca",
+        "id": "164662617",
+        "description": "Calma, calma, eita, eita. Muitas idas ao banheiro, muita risada, conversas divertidíssimas e um pouco de código."
+    },
+    {
+        "name": "leitoraincomum",
+        "id": "177927128",
+        "description": "As aventuras codando e conversando sobre a vida de estudante depois dos 30 de uma mãe de um rapaz incrível, além de muitas aleatoriedades."
+    },
+    {
+        "name": "ps1locibin4",
+        "id": "544584282",
+        "description": "Prima da paxixa. Futura diva dos códigos, fã do bob e congumelos. Historiadora do live coding. Live de tudo o que for possível."
+    }
 ]
