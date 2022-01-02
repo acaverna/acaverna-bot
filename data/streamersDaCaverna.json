@@ -9,11 +9,6 @@
         "description": "Lives estudando RUST. A gente sabe que RUST não serve pra nada. Mas se ele vai rodar em windows. Então está xow! Segue que é sucesso!"
     },
     {
-        "name": "edersondeveloper",
-        "id": "544584282",
-        "description": "Live copiando coisas. Desde lives passando raiva com C++ até desejando morte ao eixo X. E muito mais. Segue ele lá."
-    },
-    {
         "name": "profbrunolopes",
         "id": "551257512",
         "description": "TI no mais alto nível, muito conteúdo sensacional e também aquela jogatina raiz."
@@ -52,6 +47,11 @@
         "name": "pixlrose",
         "id": "78532927",
         "description": "Web da alegria com muitos desafios de HTML, CSS e Wordpress. Live divertida demais. Só segue!"
+    },
+    {
+        "name": "lissadev",
+        "id": "544584282",
+        "description": "Live copiando coisas. Desde lives passando raiva com C++ até desejando morte ao eixo X. E muito mais. Segue ela lá."
     },
     {
         "name": "moniquelive",
